@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;400&family=Supermercado+One&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.flex-container{
+    width: 100%;
+    height: 64px;
+    background-color: aquamarine;
+}
+header{
+    position: fixed;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 64px;
+    background-color: white;
+}
+.ads{
+    width: 100%;
+    height: 773px;
+    background-color: cadetblue;
+}
+.content{
+    margin: 0 auto;
+    width: 80%;
+    height: 2300px;
+    background-color: white;
+}
+.content-box1{
+    display: flex;
+    width: 100%;
+    height: 1000px;
+    background-color: rgb(134, 45, 45);
+}
+.content-box1-left{
+    padding: 10em 8em;
+    width: 60%;
+    height: 100%;
+    background-color: white;
+    font-family: "Open Sans", sans-serif;
+}
+.content-box1-right{
+    display: flex;
+    width: 40%;
+    height: 100%;
+    background-color: white;
+    align-items: center;
+}
+.millie-img{
+    width: 100%;
+    object-fit: cover;
+}
+.millie-name{
+    font-size: 4em;
+}
+.millie-info{
+    font-size: 2em;
+    font-family: 'Supermercado One', cursive;
+}
+.content-box2{
+    display: flex;
+    margin-top: 150px;
+    width: 100%;
+    height: 960px;
+    background-color: rgb(236, 122, 122);
+}
+.content-box2-left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 3.5em;
+    font-family: "Open Sans", sans-serif;
+    width: 50%;
+    height: 100%;
+    background-color: white;
+}
+.content-box2-right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 3.5em;
+    font-family: "Open Sans", sans-serif;
+    width: 50%;
+    height: 100%;
+    background-color: white;
+}
+.youtube-btn{
+    margin-bottom: 1.5em;
+    color: white;
+    font-size: 45px;
+    display: flex;
+    font-family: "Open Sans", sans-serif;
+    padding: 1.6rem 9rem;
+    text-align: center;
+    height: auto;
+    width: 100px;
+    background-color: #FF0000;
+    border-radius: 100px;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    box-shadow: 0 5px 40px 0px #ff2323;
+}
+.youtube-btn:hover{
+    padding: 1.7rem 9.2rem;
+}
+.twitter-btn{
+    margin-bottom: 1.5em;
+    color: white;
+    font-size: 45px;
+    display: flex;
+    font-family: "Open Sans", sans-serif;
+    padding: 1.6rem 9rem;
+    text-align: center;
+    height: auto;
+    width: 100px;
+    background-color: #1DA1F2;
+    border-radius: 100px;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    box-shadow: 0 5px 40px 0px #38acf5;
+}
+.twitter-btn:hover{
+    padding: 1.7rem 9.2rem;
+}
+.youtube-word{
+    padding-left: 4px;
+}
+.twitter-word{
+    padding-left: 4px;
+}
+.youtube-info{
+    margin-bottom: 2em;
+    font-size: 20px;
+}
+.twitter-info{
+    margin-bottom: 2em;
+    font-size: 20px;
+}
+.youtube-box{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 75px;
+}
+.twitter-box{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.youtube-clip{
+    border-radius: 20px;
+    box-shadow: 0px 13px 40px 0px black;
+    width: 100%;
+    top: auto;
+}
+.twitter-tweet{
+    border-radius: 20px;
+    box-shadow: 0px 13px 40px 0px black;
+    width: 100%;
+}
+.youtube-box2{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.youtube-clip2{
+    border-radius: 20px;
+    box-shadow: 0px 13px 40px 0px black;
+    width: 100%;
+    top: auto;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 312px;
+    background:linear-gradient(260deg,rgb(255, 134, 69),rgb(255, 90, 0));
+}
+.credit{
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.logo ,.logo2{
+    height: 20px;
+}
+.logo:hover{
+    opacity: 0.65;
+}
+ul{
+    letter-spacing: 0.15rem;
+    font-size: 14px;
+    font-weight: 700;
+    display: flex;
+    list-style:none ;
+    font-family: "Open Sans", sans-serif;
+}
+li{
+    margin: auto 0;
+    padding: 0px 25px;
+    transition: 0.6s;
+}
+li:hover{
+    color: rgb(255, 123, 0);
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    width: 80vw;
+}
+.type-zone ,.member-zone{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    width: 100vw;
+}
+.type-box{
+    box-shadow: 0 0 15px 0px black;
+    display: flex;
+    font-weight: bold;
+    background-color: rgb(255, 255, 255);
+    height: 4em;
+    border-radius: 100px;
+}
+.type-select{
+    text-align: center;
+    width: auto;
+    padding: 0 2em;
+    font-size: 16px;
+}
+.member-box{
+    margin: 3em 0;
+    padding: 0 1.7em;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.4rem;
+}
+.member-card{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    padding: 25px 20px;
+}
+.member-card>img{
+    border-radius: 10px;
+    background-color: #ffffff;
+    margin-bottom: 0.6em;
+    box-shadow: 0 0 10px 0px black;
+}
