@@ -5,13 +5,11 @@ body{
     background-color: rgb(54, 73, 30);
 }
 img{
-    height: 100px;
-    width: 200px;
+    height: 50%;
+    width: 50%;
     display: none;
 }
 .action{
-    height: 100px;
-    width: 200px;
     display: block;
 }
 .ads-control{
