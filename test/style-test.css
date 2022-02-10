@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(54, 73, 30);
+}
+img{
+    height: 100px;
+    width: 200px;
+    display: none;
+}
+.action{
+    height: 100px;
+    width: 200px;
+    display: block;
+}
+.ads-control{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.next ,.prev{
+    display: flex;
+    margin: 1em 0;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(170, 93, 93);
+    width: 100px
+    
+}
